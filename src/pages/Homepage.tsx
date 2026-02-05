@@ -28,6 +28,7 @@ export const Homepage = () => (
               </span>
             ))}
           </p>
+          <p className="byline">December 17, 2025</p>
         </div>
       </div>
 
@@ -43,6 +44,9 @@ export const Homepage = () => (
       <br />
 
       <div className="container">
+        <p className="copy" style={{ fontStyle: 'italic' }}>
+          Editor's Note: This is not an actual article published by THE CITY. This is an article written by journalism student Jack Walker, which he inserted into this news page template to practice coding.
+        </p>
         <p className="copy">
           Sarah Braunstein once saw federal funding for local health initiatives as a given. As assistant commissioner of the Bureau of Hepatitis, HIV and STI, she knew cities like New York have relied on federal support to address public health crises like the AIDS epidemic. Then came the news Congress was considering cuts to HIV resources by <a href="https://appropriations.house.gov/sites/evo-subsites/republicans-appropriations.house.gov/files/evo-media-document/fy26-labor-health-and-human-services-education-and-related-agencies-subcommittee-mark.pdf">more than $1.7 billion</a> nationally.
         </p>
